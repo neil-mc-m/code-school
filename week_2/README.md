@@ -19,3 +19,9 @@ Make use of any 3 special characters
 - Use proper header for the columns
 - Make a cell that spans two columns
 - Make a cell that spans 2 rows
+
+### create a new page
+- create a new html page beside your index.html
+- call it page1.html
+- link to this page from index.html
+- link to index.html from page1
