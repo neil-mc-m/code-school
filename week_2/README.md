@@ -48,3 +48,5 @@ Create a form to accept Name, email, Password, telephone number, file upload and
 ### create a footer
 - create an footer on the bottom of the page with the same navigation menu placed within it
 - make the footer nav inline and add a search input.
+- wrap the search input in a form
+- submit the search form to itself using the 'get' method 
