@@ -34,26 +34,26 @@
           <h1>Main heading here</h1>
           <h3>published by John Doe</h3>
         </header>
-        <form action="/server.php" method="get">
+        <form action="/server.php" method="post">
           <fieldset>
           <div>
             <input type="text" name="name" placeholder="name">
           </div>
           <div>
           <br>
-            <input type="date" placeholder="date">
+            <input type="date" name="date" placeholder="date">
           </div>
           <div>
-            <input type="number" placeholder="number">
+            <input type="number" name="number" placeholder="number">
           </div>
           <div>
-            <input type="email" placeholder="email">
+            <input type="email" name="email" placeholder="email">
           </div>
           <div>
             <input type="password" name="password">
           </div>
             <div>
-              <input type="tel">
+              <input type="tel" name="telephone">
             </div>
           <div>
             <label for="myTextArea">Description</label>
@@ -72,8 +72,8 @@
           <label for="searchInput">Over 18?</label>
           <input id="searchInput" type="search" placeholder="search">
           <select>
-            <option value="val_1">value 1</option>
-            <option value="val_2">value 2</option>
+            <option value="val_1" name="country">value 1</option>
+            <option value="val_2" name="country">value 2</option>
           </select>
           </fieldset>
         </form>
