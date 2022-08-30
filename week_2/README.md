@@ -40,3 +40,7 @@ Create a form to accept Name, email, Password, telephone number, file upload and
 </form>
   </article>
 </section>
+
+### create a navigation menu
+
+- create a navigation menu with links between 2 pages (if you need to create a new page just copy one from previous lecture)
