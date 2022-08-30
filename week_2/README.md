@@ -45,6 +45,6 @@ Create a form to accept Name, email, Password, telephone number, file upload and
 
 - create a navigation menu with links between 2 pages (if you need to create a new page just copy one from previous lecture)
 
-### create an footer 
+### create a footer
 - create an footer on the bottom of the page with the same navigation menu placed within it
 - make the footer nav inline and add a search input.
