@@ -27,3 +27,16 @@ Make use of any 3 special characters
 - link to index.html from page1
 
 [https://cmder.com](https://cmder.app/)
+
+
+## Class 3
+
+<section>
+  <h3>Subscription Signup</h3>
+  <article>
+    <p>Signup to our weekly newsletter where we will follow a range of topics blah blah blah....</p>
+    <form>
+Create a form to accept Name, email, Password, telephone number, file upload and a check box for “Receiving promotional Material”, include labels and placeholders 
+</form>
+  </article>
+</section>
