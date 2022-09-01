@@ -50,3 +50,12 @@ Create a form to accept Name, email, Password, telephone number, file upload and
 - make the footer nav inline and add a search input.
 - wrap the search input in a form
 - submit the search form to itself using the 'get' method 
+
+
+## Class 4
+
+#### CSS selectors
+![](css_props.png)
+
+#### combining CSS selectors
+![](css_combining_selectors.png)
