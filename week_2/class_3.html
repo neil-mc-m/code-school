@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   <main>
@@ -34,8 +35,8 @@
           <h1>Main heading here</h1>
           <h3>published by John Doe</h3>
         </header>
-        <form action="/server.php" method="post">
-          <fieldset>
+        <form action="" method="post">
+
           <div>
             <input type="text" name="name" placeholder="name">
           </div>
@@ -71,14 +72,15 @@
           </button>
           <label for="searchInput">Over 18?</label>
           <input id="searchInput" type="search" placeholder="search">
-          <select>
+          <label for="mySelect">My select</label>
+          <select id="mySelect">
             <option value="val_1" name="country">value 1</option>
             <option value="val_2" name="country">value 2</option>
           </select>
-          </fieldset>
         </form>
       </article>
     </section>
   </main>
+  <script src="js/live.js"></script>
 </body>
 </html>
