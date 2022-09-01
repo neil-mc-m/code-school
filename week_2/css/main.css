@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+form {
+    border: 1px solid blue;
+}
+
+form input {
+    margin-top: 10px;
+    width: 100%;
+}
