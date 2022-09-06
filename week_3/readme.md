@@ -21,7 +21,14 @@
 
 in your css file start with 
 
+html,
 body {
-    height: 100%;
-    border: 1px solid grey;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  border: thin solid grey;
 }
