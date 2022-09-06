@@ -13,3 +13,9 @@ in the unordered list only:
 - and each item has a padding of 5px;
 
 add a margin of 10px to both the Unordered list and the ordered list
+
+## Class 6
+
+- create the following layout using everything we've learnt so far.
+
+![](class_6_classwork.png)
