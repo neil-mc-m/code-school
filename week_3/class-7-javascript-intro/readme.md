@@ -10,4 +10,4 @@
   - brand - ford
   - miles - 12000
   - fuelType - diesel
-log all the values to the console
+- log all the values to the console
