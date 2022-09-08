@@ -20,7 +20,7 @@
 ![](class_6_classwork.png)
 
 in your css file start with 
-
+```css
 html,
 body {
 height: 100%;
@@ -32,3 +32,4 @@ padding: 0px;
   box-sizing: border-box;
   border: thin solid grey;
 }
+```
