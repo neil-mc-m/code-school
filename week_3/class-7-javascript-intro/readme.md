@@ -11,3 +11,8 @@
   - miles - 12000
   - fuelType - diesel
 - log all the values to the console
+
+#### part 3
+
+- insert a html div element into the page with the class 'section-div'
+- write a css rule to color the text of the div red
