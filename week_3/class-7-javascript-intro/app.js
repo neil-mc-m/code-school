@@ -6,7 +6,7 @@ let myContent = document.getElementById('app');
 
 // numbers
 let myNumber = Number();
-let stringNumber = '1098';
+let numberOfApplicants = '1098';
 
 let myStringNumber = myNumber.toString();
 
@@ -26,17 +26,14 @@ console.log(myNumPrecision);
 
 
 // strings
-let message = 'This is the TEST string';
-
-// if (message.indexOf('L') !== -1) {
-//     myContent.innerHTML = message;
-// }
-// let myArray = message.split(' ')
-
-// array
+let theString = 'Dublin Coding school';
+let arr = ['red', 'blue', 'green', 'yellow', 'black'];
 
 
-let myArray = ['red', 'blue', 'green', 'yellow', 'black']
+myContent.innerHTML = theString.indexOf('C');
 
-myContent.innerHTML = myArray[0];
+
+// let myArray = ['red', 'blue', 'green', 'yellow', 'black']
+
+
 
