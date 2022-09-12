@@ -5,3 +5,10 @@
 - New String should look like “Dublin CODING School”
 
 - Reverse string “Dublin Coding School” to “School Coding Dublin”
+
+- find the index of the letter 'C' in 'Dublin Coding School'
+
+- create an array with the values : 'red', 'blue', 'green', 'yellow', 'black'
+- print out the value 'yellow'
+
+
