@@ -11,4 +11,10 @@
 - create an array with the values : 'red', 'blue', 'green', 'yellow', 'black'
 - print out the value 'yellow'
 
+
 - check if the string 'z' is contained in 'Dublin coding school' and log out the string if it isnt present
+```
+hint: if (something) {
+    do something
+}
+```
