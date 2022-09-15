@@ -10,7 +10,7 @@ let formError = document.getElementById('formError');
 form.addEventListener('submit', function (event) {
     event.preventDefault();
     const formData = new FormData(this);
-
+    const emailValue = formData.get('email');
 
 });
 //
