@@ -18,7 +18,7 @@ console.log(myString.length); // 'DUBLIN CODING SCHOOL'
 let day = 'thursday';
 let time = '4 o clock';
 
-const details = 'I will be available ' + day + ', at around ' + time + ', if that suits?';
+const details = 'I will be available thursday, at around ' + time + ', if that suits?';
 // String interpolation
 const detailsInter = `I will be available ${day}, at around ${time}, if that suits?`;
 console.log(detailsInter);
