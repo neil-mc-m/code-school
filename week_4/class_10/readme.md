@@ -1,5 +1,5 @@
-Using the javascript file
-- Modifiy the functions created in part 2 to include and if statement. 
-- Add at least one && operator and || operator. 
-The if can do what ever you like.
+Using the files 
+- Modify the event listner to include an if statement. 
+- check for the existence of a . in the email string
+- log out appropriate messages to the console in the case of both true and false
 
