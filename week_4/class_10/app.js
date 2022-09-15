@@ -11,11 +11,7 @@ form.addEventListener('submit', function (event) {
     event.preventDefault();
     const formData = new FormData(this);
 
-    if (formData.get('email').indexOf('.') === -1) {
-        formError.style.display = "block";
-    } else {
-        this.submit();
-    }
+
 });
 //
 //
