@@ -12,21 +12,10 @@ form.addEventListener('submit', function (event) {
     const formData = new FormData(this);
     const emailValue = formData.get('email');
 
+    if (emailValue.indexOf('.') === -1) {
+        formError.style.display = 'block';
+    } else {
+        console.log('Valid email');
+        this.submit();
+    }
 });
-//
-//
-// // functions
-//
-// function reverseWordOrder (value) {
-//     return value.split(' ').reverse().join(' ');
-// }
-//
-// function logEvent (eventName, occurredOn) {
-//     return 'Event: ' + eventName + ' occurred on ' + occurredOn.toDateString();
-// }
-
-
-
-
-
-
