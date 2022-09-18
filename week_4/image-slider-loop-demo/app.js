@@ -15,9 +15,9 @@ nextImageButton.addEventListener('click', function (e) {
         if (thisImageIsShowing(i)) {
             hideCurrentImage(i);
         }
-
-        showNextImage(index + 1);
     }
+
+    showNextImage(index + 1);
 });
 
 function thisImageIsShowing(i) {
@@ -36,9 +36,9 @@ prevImageButton.addEventListener('click', function (e) {
         if (thisImageIsShowing(i)) {
             hideCurrentImage(i)
         }
-
-        showNextImage(index - 1);
     }
+
+    showNextImage(index - 1);
 });
 
 
