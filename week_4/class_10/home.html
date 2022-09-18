@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="container">
+<section class="container">
     <form id="login-form" action="" method="post">
-        <div>
-            <input type="email" name="email">
-            <span id="formError" class="container">Invalid email</span>
+        <span class="form-error">Login failed</span>
+        <div class="flex-item">
+            <label for="emailLogin">Email</label>
+            <input type="email" name="email" id="emailLogin">
         </div>
-
-        <div>
+        <div class="flex-item">
+            <label for="passwordLogin">Password</label>
+            <input type="password" name="password" id="passwordLogin">
+        </div>
+        <div class="flex-item">
             <button class="form-submit-button" type="submit" value="login">Login</button>
         </div>
     </form>
-</div>
+</section>
+
 <script src="functions.js"></script>
 <script src="app.js"></script>
 </body>

@@ -3,8 +3,10 @@
 let form = document.getElementById('login-form');
 
 // the error field
-let formError = document.getElementById('formError');
+let formError = document.querySelector('.form-error');
 
+// the email field
+let emailLoginField = document.getElementById('emailLogin');
 
 // the listener that does the validating when submit is clicked
 form.addEventListener('submit', function (event) {
@@ -13,9 +15,14 @@ form.addEventListener('submit', function (event) {
     const emailValue = formData.get('email');
 
     if (emailValue.indexOf('.') === -1) {
-        formError.style.display = 'block';
+        formError.style.visibility = 'visible';
     } else {
-        console.log('Valid email');
         this.submit();
     }
 });
+
+emailLoginField.addEventListener('focus', function () {
+    if (formError.style.visibility === 'visible') {
+        formError.style.visibility = 'hidden';
+    }
+})

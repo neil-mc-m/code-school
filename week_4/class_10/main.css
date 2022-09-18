@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html,
@@ -9,29 +10,42 @@ body {
     padding: 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+label {
+    margin-bottom: 2px;
+    text-align: center;
 }
 
 #login-form {
-    margin: 0;
-    position: absolute;
-    top: 50%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 300px;
 }
 
-#formError {
-    display: none;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
-div {
-    margin-bottom: 5px;
+.flex-item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-error {
+    visibility: hidden;
+    color: red;
+    display: flex;
+    justify-content: center;
 }
 
 .form-submit-button {
-    padding: 8px;
+    padding: 4px;
     border-radius: 4px;
-    width: 100px;
-    background-color: cadetblue;
+    background-color: #DAF7A6;
+    border: thin solid lightgrey;
 }
