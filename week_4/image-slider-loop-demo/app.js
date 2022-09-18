@@ -5,10 +5,10 @@ const images = document.querySelectorAll('.slider-image');
 
 nextImageButton.addEventListener('click', function (e) {
     e.preventDefault();
-    let index = getCurrentImageIndex();
+    let currentImageIndex = getCurrentImageIndex();
 
-    if (index === (images.length - 1)) {
-        index = -1;
+    if (currentImageIndex === (images.length - 1)) {
+        currentImageIndex = -1;
     }
 
     for (let i = 0; i < images.length; i++) {
@@ -17,19 +17,15 @@ nextImageButton.addEventListener('click', function (e) {
         }
     }
 
-    showNextImage(index + 1);
+    showNextImage(currentImageIndex + 1);
 });
-
-function thisImageIsShowing(i) {
-    return images[i].classList.contains('show');
-}
 
 prevImageButton.addEventListener('click', function (e) {
     e.preventDefault();
-    let index = getCurrentImageIndex();
+    let currentImageIndex = getCurrentImageIndex();
 
-    if (index === 0) {
-        index = images.length;
+    if (currentImageIndex === 0) {
+        currentImageIndex = images.length;
     }
 
     for (let i = 0; i < images.length; i++) {
@@ -38,7 +34,7 @@ prevImageButton.addEventListener('click', function (e) {
         }
     }
 
-    showNextImage(index - 1);
+    showNextImage(currentImageIndex - 1);
 });
 
 
@@ -51,6 +47,10 @@ function getCurrentImageIndex () {
             return i;
         }
     }
+}
+
+function thisImageIsShowing(i) {
+    return images[i].classList.contains('show');
 }
 
 function hideCurrentImage(index) {
