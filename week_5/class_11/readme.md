@@ -10,3 +10,10 @@
 - Return new array
 - // Array to be passed to the function
 - let lottoNumbers = [10, 23, 11, 73, 44, 57];
+
+## optional
+
+- Write a function that finds how many matching lotto numbers you have.
+- The function takes parameters, each are array of 6 numbers. First is the user selected Lotto numbers and the second are the winning number.
+- The function should return a number, how many matching numbers they have.
+
