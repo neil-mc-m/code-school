@@ -8,3 +8,5 @@
 - Hint - number%2
 - If mod is 0 - push number to a new array
 - Return new array
+- // Array to be passed to the function
+- let lottoNumbers = [10, 23, 11, 73, 44, 57];
