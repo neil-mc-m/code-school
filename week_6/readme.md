@@ -8,3 +8,4 @@
 - Import the header.php file as the header of the page “Include”
 
 
+- now create a folder called includes and move all your included files into it. Dont forget t update your links to reflect teh new file location e.g. includes/header.php
