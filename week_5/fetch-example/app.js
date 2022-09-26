@@ -13,3 +13,4 @@ getBreweryData().then(function (breweries)  {
 
     myContent.innerHTML = htmlLinks;
 });
+
