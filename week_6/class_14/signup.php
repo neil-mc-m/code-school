@@ -7,3 +7,4 @@ if (isset($_POST['password'])) {
     echo 'Password: ' . $_POST['password'];
 }
 
+

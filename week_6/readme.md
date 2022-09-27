@@ -18,3 +18,16 @@
 - Create a signup.php page
 - print a header welcoming the user using their name  e.g. “Welcome John Smith”
 - Add a paragraph stating the users contact number.
+
+## PHP
+
+- variables: always start with `$`
+- loops : `foreach`
+- if/else : same as javascript
+### forms: 
+`<form action="" method=""></form>`
+- method will be either `get` or `post`
+
+### includes
+- `include 'includes/my-include-file.php`
+- used to prevent duplication as they can be used across multiple pages that require the same content
