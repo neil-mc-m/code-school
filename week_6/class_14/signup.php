@@ -1,5 +1,9 @@
 <?php
 
-echo 'Username: ' . $_POST['username'];
-echo 'Password: ' . $_POST['password'];
-var_dump($_REQUEST);
+if (isset($_POST['username'])) {
+    echo 'Username: ' . $_POST['username'];
+}
+if (isset($_POST['password'])) {
+    echo 'Password: ' . $_POST['password'];
+}
+
