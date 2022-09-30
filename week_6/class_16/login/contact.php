@@ -1,21 +1,21 @@
 <?php
 session_start();
-if (!isset($_COOKIE['authenticated'])) {
-    header("Location: ./login.php");
-}
+include 'check-auth.php';
+$title = 'Contact us';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-<body>
+<html>
 
+<body>
 <header>
     <?php include 'includes/nav.php';?>
+
 </header>
 <main>
-    <p>Home page</p>
+    <p>Contact form</p>
 </main>
-
 </body>
+
 </html>
 

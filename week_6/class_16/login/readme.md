@@ -2,7 +2,7 @@
 - Create an check-auth.php page
 - Check the users cookie
 - If the cookie ‘authenticated’ is not set then redirect to login.php
-‘header(“Location: ./login.php”)’
+'header("Location: ./login.php")'
 
 
 - Create a login.php page
@@ -19,4 +19,4 @@ isset($_POST[‘loggedInName’] )
 - Otherwise redirect to the login page
 - Create an index.php file
 - Check if the user is logged in by including the ‘./check-auth.php’ file
-- Add header using the session saying “Welcome to $loggedInName”
+- Add header using the session saying “Welcome  $loggedInName”
