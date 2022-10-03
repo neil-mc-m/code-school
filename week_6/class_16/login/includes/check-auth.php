@@ -1,5 +1,8 @@
 <?php
 
-if (!isset($_COOKIE['authenticated'])) {
+include './debug.php';
+
+if (!isset($_SESSION['user']['id'])) {
     header("Location: ./login.php");
+    exit();
 }
