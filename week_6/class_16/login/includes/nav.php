@@ -12,8 +12,9 @@ $links = [
         foreach ($links as $key => $value) {
             echo "<li><a href='$key'>$value</a></li>";
         }
-        if (isset($_SESSION['loggedInName'])) {
-            echo "<p>Welcome {$_SESSION['loggedInName']}</p>";
+        if (isset($_SESSION['user']['username'])) {
+            echo "<p>Welcome {$_SESSION['user']['username']}</p>";
+            echo "<p>user since {$_SESSION['user']['created_at']}";
             echo "<a href='logout.php'>Logout</a>";
         }
     ?>
