@@ -1,8 +1,8 @@
 ## Class 1
 
 - Create a paragraph with text of your choice.
-Add a "tooltip" to the paragraph with the text "This is a tooltip".
-Style some of the text using of any 3 tags of these tags - bold, italics, strikethrough, underline
+- Add a "tooltip" to the paragraph with the text "This is a tooltip".
+- Style some of the text using of any 3 tags of these tags - bold, italics, strikethrough, underline
 
 - Create two lists - ordered and unordered with items of your choice
 
