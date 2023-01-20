@@ -65,7 +65,7 @@ function calculateNoOfMinutes(days) {
 
 let today = new Date();
 
-myContent.innerHTML = today.toDateString();
+myContent.innerHTML = today.toTimeString();
 
 // A variable declared inside a function is only visible inside that function.
 // But A function can access an outer variable as well
