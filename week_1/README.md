@@ -10,7 +10,7 @@
 
 - Use an anchor tag to open the image in new window.
 
-- Make use of any 3 special characters
+- Make use of any 3 special characters - &euro; &trade;  
 
 - Create a table with 3 columns and four rows
 Use proper header for the columns
