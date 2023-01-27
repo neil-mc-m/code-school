@@ -1,0 +1,17 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+main {
+    text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        margin: 100px;
+    }
+}

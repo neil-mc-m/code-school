@@ -33,9 +33,9 @@
         <article>
             <h1>Main heading here</h1>
             <h3>published by John Doe</h3>
-            <form action="../server.php" method="get" style="border: 1px solid lightgrey;">
+            <form action="" method="post" style="border: 1px solid lightgrey;">
                 <div>
-                    <input type="text" name="name" placeholder="name">
+                    <input type="text" placeholder="name">
                 </div>
                 <br>
                 <div>
@@ -58,9 +58,12 @@
                 <div>
                     <input type="tel" name="telephone">
                 </div>
+                <div>
+                    <input type="file">
+                </div>
                 <br>
                 <div>
-                    <textarea name="input_text" id="myTextArea" cols="60" rows="5"></textarea>
+                    <textarea name="input_text" id="myTextArea" cols="60" rows="5" placeholder="My message goes here...."></textarea>
                     <label for="myTextArea">Description</label>
                 </div>
                 <br>
@@ -84,7 +87,8 @@
 
                 <label for="mySelect">My select</label>
                 <select id="mySelect">
-                    <option value="val_1" name="country">value 1</option>
+
+                    <?php echo "<option value="$country" name="country">$country_name</option>";?>
                     <option value="val_2" name="country">value 2</option>
                 </select>
                 <!-- extra form items -->
