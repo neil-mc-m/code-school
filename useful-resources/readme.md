@@ -19,3 +19,11 @@ https://css-tricks.com/
 https://javascript.info/
 
 https://www.codecademy.com/learn/introduction-to-javascript
+
+### Jamboard
+https://jamboard.google.com/d/1uQTDIQpUxNgRg_CLcO7hr32VA6oxPve8S3oIzeS0PNU/viewer?f=0
+
+https://htmlcolorcodes.com/
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Styling_a_biography_page
+

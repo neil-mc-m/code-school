@@ -1,0 +1,25 @@
+* {
+    border: 1px dotted black;
+}
+
+p {
+    border: 1px solid green;
+}
+
+h3 {
+    color: red;
+}
+
+#sectionHeader {
+    border: 5px solid blue;
+}
+
+.first-on-page:hover {
+    color: darkgray;
+}
+
+.padded-section {
+    padding: 30px;
+}
+
+.first-on-page .padded-section
