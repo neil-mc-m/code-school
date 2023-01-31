@@ -3,7 +3,7 @@
 }
 
 p {
-    border: 1px solid green;
+    font-size: 14px;
 }
 
 h3 {
@@ -20,6 +20,10 @@ h3 {
 
 .padded-section {
     padding: 30px;
+}
+
+.bigger-paragraph {
+
 }
 
 .first-on-page .padded-section
