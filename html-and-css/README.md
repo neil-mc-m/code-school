@@ -69,4 +69,4 @@ Using the HTML file and the css file to do the following:
 - All unordered list items should have blue text
 - Limit the unordered list height to 100px and width to half the screen width and allow scrolling
 - 
-![Screenshot 2023-01-31 at 20.15.34.png](..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202023-01-31%20at%2020.15.34.png)
+<img width="1713" alt="Screenshot 2023-01-31 at 20 15 34" src="https://user-images.githubusercontent.com/10159504/215873274-9de59025-fd5e-4bbd-ade9-d30ed6af9d12.png">
