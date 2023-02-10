@@ -6,7 +6,7 @@
 - Create an index.php
 
 - Create a typical HTML structure
-- Import the header.php file as the header of the page “Include”
+- Import the header.php file as the header of the page (include)
 
 
 - In the index.php
