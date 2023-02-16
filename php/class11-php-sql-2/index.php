@@ -9,6 +9,17 @@ if (isset($_POST['q'])) {
     var_dump($_POST['q']);
     $connection = new mysqli($databaseHost, $databaseUser, $databasePassword, $database);
     var_dump($connection);
+    $statement = $connection->prepare('SELECT * from recipe_list WHERE `name` = ?');
+    $statement->bind_param('s', $_GET['q']);
+    $statement->execute();
+
+    // step 2
+    $result = $statement->get_result();
+
+    // step 3
+    if ($result->num_rows > 0) {
+
+        $recipe = $result->fetch_assoc();
 }
 
 ?>
