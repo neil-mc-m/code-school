@@ -1,5 +1,7 @@
 ### Class work - [Optional]
 
+- if you get time for this one over the weekend
+
 #### database
 - create a mysql table called `user` in your database with columns (id, email, password)
 - insert a few rows into this table via phpmyadmin (values can be anything you want, but let the DB create the id)
