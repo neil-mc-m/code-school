@@ -1,4 +1,5 @@
 <?php
+// im editing this file
 // search form
 $databasePassword = 'J_g]6!uv]@XHUmf8';
 $databaseUser = 'php-user';
