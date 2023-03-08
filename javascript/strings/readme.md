@@ -1,5 +1,3 @@
-#### for all of the samples, we will use a div with an id of `app`and then fill this div with the results of our javascript
-
 ## javascript strings
 
   https://javascript.info/string
