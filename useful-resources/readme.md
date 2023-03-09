@@ -20,6 +20,8 @@ https://javascript.info/
 
 https://www.codecademy.com/learn/introduction-to-javascript
 
+https://github.com/KBPsystem777/You-Dont-Know-JS
+
 ### Jamboard
 https://jamboard.google.com/d/1uQTDIQpUxNgRg_CLcO7hr32VA6oxPve8S3oIzeS0PNU/viewer?f=0
 
