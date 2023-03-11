@@ -1,20 +1,34 @@
-## Exercise: 
-- Create two variables for the first name and last name, assign values to them, then create a third variable that combines the first and last name variables, and print the value of the third variable to the console.
+### Arrays
 
-- Use string “Dublin Coding School” and replace coding from the string with CODING.
-- New String should look like “Dublin CODING School”
+Arrays are a way to store collections or lists of values. 
 
-- Reverse string “Dublin Coding School” to “School Coding Dublin”
+You can declare an array like:
 
-- find the index of the letter 'C' in 'Dublin Coding School'
-
-- create an array with the values : 'red', 'blue', 'green', 'yellow', 'black'
-- print out the value 'yellow'
-
-
-- check if the string 'z' is contained in 'Dublin coding school' and log out the string if it isnt present
+```javascript
+let myArray = [];
 ```
-hint: if (something) {
-    do something
-}
+
+or alternatively, with values
+
+```javascript
+let myArray = ['yellow', 'brown', 'purple'];
 ```
+
+These values are numerically indexed, starting at 0 and you can access the values by the index
+
+```javascript
+myArray[1] // brown
+```
+
+When you declare an array, the array inherits all the built in javascript array functions:
+
+```javascript
+myArray.push('green'); // ['yellow', 'brown', 'purple', 'green']
+myArray.indexOf('brown');// 1
+myArray.unshift('blue'); // adds to the start
+myArray.shift(); // remove from start of array
+myArray.pop(); // remove from end of array
+```
+and more (https://javascript.info/array-methods)
+
+Arrays are commonly used in conjunction with loops

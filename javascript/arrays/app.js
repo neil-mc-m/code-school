@@ -7,7 +7,7 @@ myArray.push('green'); // ['green']
 myArray.push('red'); // ['green', 'red']
 myArray.push('black') // ['green', 'red', 'black']
 myArray.indexOf('red');// 1
-myArray.unshift('blue'); // adds to the start
+myArray.unshift('blue'); // adds blue to the start/top of the array (index 0)
 myArray.shift(); // remove from start of array
 myArray.pop(); // remove from end of array
 
