@@ -49,3 +49,15 @@ label {
     background-color: #DAF7A6;
     border: thin solid lightgrey;
 }
+
+.brewery-link {
+    color:black;
+}
+
+.slider-image.show {
+    display: block;
+}
+
+.slider-image.hide {
+    display: none;
+}

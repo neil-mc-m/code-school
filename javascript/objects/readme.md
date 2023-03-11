@@ -17,7 +17,7 @@ let car = {
 ```
 the object literal can be used like:
 ```javascript
-car.drive();
+car.calcPrice();
 ```
 
 2. Constructor function (note the capital C)
